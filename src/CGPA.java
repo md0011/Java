@@ -1,7 +1,9 @@
 import java.util.Scanner;
 
+
 public class CGPA {
 
+    //This function returns mark if it is not above 100
     public static float getMarks(String sub){
         Scanner scan1 = new Scanner(System.in);
         System.out.println(sub);

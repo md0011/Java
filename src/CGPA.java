@@ -1,18 +1,17 @@
 import java.util.Scanner;
 
-
 public class CGPA {
 
     //This function returns mark if it is not above 100
     public static float getMarks(String sub){
         Scanner scan1 = new Scanner(System.in);
         System.out.println(sub);
-        float num1 = scan1.nextFloat();
-        if (num1 > 100){
-            System.out.println("Error");
+        float num = scan1.nextFloat();
+        if (num > 100){
+            System.out.println("Invalid Input...");
             System.exit(1);
         }
-        return num1;
+        return num;
     }
     public static void main(String[] args) {
 
